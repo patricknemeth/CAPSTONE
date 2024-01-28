@@ -13,7 +13,7 @@ entertainment that can adapt to individual behaviors and choices.
 #### The Big Idea: 
 Machine learning can be utilized to analyze player behavior data,
 employing techniques like clustering for player segmentation and predictive modeling to
-anticipate player actions, and Natural Language Processing can extract player
+anticipate player actions and Natural Language Processing can extract player
 sentiment, preferences, and emotions from text documents. These techniques focus on
 extracting meaningful insights from player data, which can inform both narrative and
 gameplay design.
@@ -30,7 +30,7 @@ industry as well as broader digital narrative experiences as a whole.
 
 Split into two files (one for character descriptions and one for narrative posts), the "Deep Dungeons and Dragons Corpus" (DDDC) contains an extensive collection of narrative posts and character descriptions from various pen and paper role-playing games collected from roleplayerguild.com.  This dataset includes 56,555 entries across 1,544 unique threads, each detailed with post sequences, author information, and narrative content. It presents a terrific opportunity for exploratory data analysis and natural language processing.
 
-Since the twp .txt files comprising this dataset are too large in size to be uploaded to github, they ("DDDC.txt" and "DDDC.txt.charinfo") can be found at this google drive link:
+Since the two .txt files comprising this dataset are too large to be uploaded to GitHub, they ("DDDC.txt" and "DDDC.txt.charinfo") can be found in a compressed format at this Google Drive link:
 https://drive.google.com/drive/folders/1ThFd2HbXW3p7WtQfuaofu4opbyyyr0lN?usp=drive_link
 
 ### Data Dictionary
