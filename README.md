@@ -1,7 +1,7 @@
 # Exploring Roleplaying Game Player Behavior and Its Impact on Narrative Experiences in Interactive Media¶
 
 ## project overview
-This project will focus on understanding how player choices and behaviors in role-playing games impact narrative branching and story outcomes. I will explore roleplaying game player behavior and its impact on narrative experiences in video games and other interactive media, as well as attempt to understand the diverse ways in which users engage with narrative content.
+This project focuses on understanding how player choices and behaviors in role-playing games impact narrative branching and story outcomes. I will explore roleplaying game player behavior and its impact on narrative experiences in video games and other interactive media, as well as attempt to understand the diverse ways in which users engage with narrative content.
 
 #### The User: 
 
@@ -11,9 +11,9 @@ consumers, offering more personalized and immersive experiences in interactive
 entertainment that can adapt to individual behaviors and choices.
 
 #### The Big Idea: 
-Machine learning can be utilized to analyze player behavior data,
+Machine learning will be utilized to analyze player behavior data,
 employing techniques like clustering for player segmentation and predictive modeling to
-anticipate player actions and Natural Language Processing can extract player
+anticipate player actions, and Natural Language Processing can extract player
 sentiment, preferences, and emotions from text documents. These techniques focus on
 extracting meaningful insights from player data, which can inform both narrative and
 gameplay design.
@@ -29,9 +29,6 @@ industry as well as broader digital narrative experiences as a whole.
 ## Dataset
 
 Split into two files (one for character descriptions and one for narrative posts), the "Deep Dungeons and Dragons Corpus" (DDDC) contains an extensive collection of narrative posts and character descriptions from various pen and paper role-playing games collected from roleplayerguild.com.  This dataset includes 56,555 entries across 1,544 unique threads, each detailed with post sequences, author information, and narrative content. It presents a terrific opportunity for exploratory data analysis and natural language processing.
-
-Since the two .txt files comprising this dataset are too large to be uploaded to GitHub, they ("DDDC.txt" and "DDDC.txt.charinfo") can be found in a compressed format at this Google Drive link:
-https://drive.google.com/drive/folders/1ThFd2HbXW3p7WtQfuaofu4opbyyyr0lN?usp=drive_link
 
 ### Data Dictionary
 
@@ -57,4 +54,20 @@ https://drive.google.com/drive/folders/1ThFd2HbXW3p7WtQfuaofu4opbyyyr0lN?usp=dri
 | `dummy`       | A field to be ignored. |
 | `char_description` | The detailed description of the character written by the author. |
 
+
+## Project Updates - Sprint 2
+
+### Preprocessing Steps:
+- Cleaned dataset: Dropped unnecessary columns and managed missing values.
+- Text preprocessing: URLs removed, text normalized to lowercase, and cleaned of special characters.
+- Feature Engineering: Derived post length and sentiment analysis.
+
+### EDA Highlights:
+- Author activity analysis: Detailed insights into posting behavior and engagement within the community.
+- Post lengths investigation: Explored the narrative depth across posts.
+- `post_text` complexity: Highlighted the diversity of narrative contributions.
+
+### Towards Advanced Modeling:
+- Set the foundation for baseline modeling, focusing on sentiment analysis and Named Entity Recognition (NER).
+- Prepared the data for advanced analysis techniques
 
